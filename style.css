@@ -64,3 +64,36 @@ input:focus {
     justify-content: flex-end;
     margin-top: 20px;
 }
+
+button {
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+
+button:hover {
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.Textarea_control {
+    grid-column: 1 / span 2;
+
+}
+
+.Textarea_control textarea {
+    width: 100%;
+}
+
+@media (max-width:460px) {
+
+    .Textarea_control textarea {
+        width: 100%;
+    }
+}
